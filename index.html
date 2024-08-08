@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Sharan | LinkedIn</title>
+    <!-- Favicon -->
+    <link rel="icon" href="dp.jpg" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+    <!-- End of Parallax Pixel Background Animation -->
+
+    <a id="profilePicture" href="#popup">
+      <img src="dp.jpg" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+      <div class="popup">
+        <div class="popup-photo">
+          <a href="https://github.com/gkarthikgoud/links/blob/2b623f437cfd67a4018d9245889a25db95472a57/dp.jpeg?raw=true" target="_blank" rel="noopener">
+            <img src="dp.jpg" alt="Profile Picture">
+          </a>
+        </div>
+        <div class="popup-quote">
+          front-end -(framework)> back-end 
+        </div>
+        <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
+    </div>
+
+    <div id="userName">
+      @SaiSharan
+    </div>
+
+    <div id="links">
+    <a class="link" href="#" onclick="toggleDropdown()">
+        <i class="fas fa-caret-down"></i> Github
+    </a>
+    <div id="dropdown" >
+        <a class="link" href="https://github.com/SAIsharanPS" target="_blank">@SaiSharan</a>
+        <!----------<a class="link" href="https://github.com/anotheruser" target="_blank">Link 2</a> --> 
+    </div>
+      <a class="link" href="https://www.linkedin.com/in/sai-sharan-sits/" target="_blank">
+        <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+      </a>
+      <a class="link" href="https://www.youtube.com/@tswgk" target="_blank">
+        <i class="fab fa-youtube">&nbsp;</i>YouTube
+      </a>
+      <a class="link" href="https://www.instagram.com/sai_sharan949/" target="_blank">
+        <i class="fab fa-instagram">&nbsp;</i>Instagram
+      </a>
+      <a class="link" href="mailto:padisreesaisharan@gmail.com" target="_blank">
+        <i class="fab fa-Email">&nbsp;</i>Email
+      </a>
+
+     
+      
+    </div>
+
+    <div id="hashtag">
+      #Good Day❤
+    </div>
+
+        <script>
+            function toggleDropdown() {
+                var dropdown = document.getElementById("dropdown");
+                if (dropdown.style.display === "block") {
+                    dropdown.style.display = "none";
+                } else {
+                    dropdown.style.display = "block";
+                }
+            }
+
+            // Hide the dropdown initially
+            document.getElementById("dropdown").style.display = "none";
+        </script>
+   
+  </body>
+</html>
